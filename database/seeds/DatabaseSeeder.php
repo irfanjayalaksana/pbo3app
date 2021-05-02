@@ -15,7 +15,7 @@ class DatabaseSeeder extends Seeder
         sysuser::insert([
             'uname' => 'admin',
             'namalengkap' => 'Administrator',
-            'email' => 'admin@pbo3.com',
+            'email' => 'admin@pbo4.com',
             'upass' => sha1('admin')
         ]);
         // $this->call(UsersTableSeeder::class);
